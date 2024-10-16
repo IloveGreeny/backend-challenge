@@ -1,4 +1,8 @@
+### Backend Challenge 
 
+  Made the connection with the database with Docker Desktop.Tested the api endpoints with Postman and validation with JWT.So the first step is to download Docker Desktop if you haven't already.
+
+ 
 ## API Endpoints
 
 #### Sign Up
