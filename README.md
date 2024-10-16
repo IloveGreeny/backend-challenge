@@ -1,6 +1,6 @@
 ### Backend Challenge 
 
-  Made the connection with the database with Docker Desktop.Tested the api endpoints with Postman and validation with JWT.So the first step is to download Docker Desktop if you haven't already. Next Dowload Postman or use alternatives. Change the enviroment variables to your needs in .env.
+  Made the connection with the database with Docker Desktop.Tested the api endpoints with Postman and validation with JWT.So the first step is to download Docker Desktop if you haven't already. Next Dowload Postman or use alternatives. Change the enviroment variables to your needs in .env. The default POSTGRES_USER is postgres
 So basically run this docker command 
 `{docker run -e POSTGRES_PASSWORD=`{yourpostgrespassword}` -e POSTGRES_DB=`{db_name}` -p 5432:5432 --name=backend-pg -d postgres}.`
 Then run the image if the download has completed you should see your container running with the name backend-pg,now you can connect the PostGreSql with Nest JS.
